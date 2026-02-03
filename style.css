@@ -584,6 +584,148 @@ ul{ list-style:none; }
   margin-bottom: 10px;
 }
 
+/* SECCIÓN MÉTODOS DE PAGO */
+
+.payments {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.payments-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #0d3b66;
+  margin-bottom: 18px;
+}
+
+.payments-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+.payment-tag {
+  padding: 10px 16px;
+  border-radius: 999px;
+  background: #f3f7fb;
+  font-size: 14px;
+  font-weight: 600;
+  color: #1c2b36;
+}
+
+.payment-tag.featured {
+  background: #009ee3;
+  color: #ffffff;
+}
+
+.payments-note {
+  margin-top: 18px;
+  font-size: 14px;
+  color: #5f6f81;
+}
+
+/* PAGO POR TRANSFERENCIA */
+
+.payment-transfer {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.payment-transfer h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #0d3b66;
+  margin-bottom: 16px;
+}
+
+.transfer-box {
+  max-width: 420px;
+  margin: 0 auto 18px;
+  background: #f8fbff;
+  border: 1px solid #e1eaf3;
+  border-radius: 14px;
+  padding: 16px;
+  text-align: left;
+  font-size: 14px;
+  color: #1c2b36;
+}
+
+.transfer-box p {
+  margin: 6px 0;
+}
+
+.transfer-instructions {
+  font-size: 14px;
+  color: #5f6f81;
+  margin-bottom: 10px;
+}
+
+.transfer-whatsapp {
+  font-size: 14px;
+  font-weight: 600;
+  color: #0d3b66;
+}
+
+/* TÉRMINOS Y CONDICIONES */
+
+.terms {
+  padding: 40px 20px;
+  max-width: 780px;
+  margin: 0 auto;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #1c2b36;
+}
+
+.terms h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #0d3b66;
+  margin-bottom: 12px;
+}
+
+.terms p {
+  margin-bottom: 10px;
+  color: #5f6f81;
+}
+
+/* PREGUNTAS FRECUENTES */
+
+.faqs {
+  padding: 40px 20px;
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+.faqs h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #0d3b66;
+  margin-bottom: 16px;
+}
+
+.faq-item {
+  margin-bottom: 16px;
+}
+
+.faq-item h4 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #1c2b36;
+  margin-bottom: 6px;
+}
+
+.faq-item p {
+  font-size: 14px;
+  color: #5f6f81;
+  line-height: 1.5;
+}
+
+
+
+
+
 /* reutilizamos highlight existente */
 .product-info-card .highlight{
   margin-top: 12px;
@@ -798,4 +940,9 @@ ul{ list-style:none; }
     margin-top: 26px;
   }
   .cd-num{ font-size: 18px; }
+  .payments-methods {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
+
+
